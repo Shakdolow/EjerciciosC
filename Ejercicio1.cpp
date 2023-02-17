@@ -3,10 +3,10 @@ using namespace std;
 int main (int argc, char *argv[]) { 
     double Altura, Base, Perimetro, Area; 
     
-    cout<<"¿Cual es la base de tu rectangulo? "; 
+    cout<<"Escribe la base del rectangulo: "; 
     cin>>Base; 
     
-    cout<<"¿Cual es la altura de tu rectangulo? "; 
+    cout<<"Escribe la altura del rectangulo: "; 
     cin>>Altura; 
     
     Perimetro = (2*Base) + (2*Altura); 
